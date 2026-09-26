@@ -1,10 +1,10 @@
 :root{
-  --bg:#f5f1e8; --panel:#fffdf9; --panel-2:#ece5d4; --border:#ddd3ba;
-  --text:#221f1a; --muted:#6b6151; --muted-2:#948a76;
-  --accent:#7a5a28; --rule:#c9b98e;
-  --flag:#7a3b34;
-  --pos:#2f6b4f; --neg:#9c3b30;
-  --india:#a85a22; --china:#8c3a32; --us:#2b4d6e; --japan:#6e3b52;
+  --bg:#ffffff; --panel:#f7fafd; --panel-2:#eaf1f9; --border:#cddced;
+  --text:#0f2542; --muted:#4c6b8a; --muted-2:#6f88a8;
+  --accent:#1c5a96; --rule:#c2d7ec;
+  --flag:#3c5a82;
+  --pos:#1f7a52; --neg:#ad3b34;
+  --india:#1f6fb2; --china:#0f3a63; --us:#5a94d6; --japan:#123056;
   --serif: 'Source Serif 4', Georgia, serif;
   --sans: 'Source Sans 3', -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   --mono: 'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
@@ -12,21 +12,21 @@
 }
 @media (prefers-color-scheme: dark){
   :root:not([data-theme="light"]){
-    --bg:#14171b; --panel:#1a1e23; --panel-2:#20252b; --border:#2d333b;
-    --text:#e9e3d4; --muted:#a89e8a; --muted-2:#6f6656;
-    --accent:#cf9f56; --rule:#4a4130;
-    --flag:#d08b7f;
-    --pos:#5fae86; --neg:#d9847a;
-    --india:#d98846; --china:#c96a62; --us:#7ea3c9; --japan:#b06d8a;
+    --bg:#0a1522; --panel:#0f1e30; --panel-2:#132741; --border:#1f3a58;
+    --text:#e8f0fa; --muted:#93aec9; --muted-2:#5c7896;
+    --accent:#6fa8dc; --rule:#254a6d;
+    --flag:#7fa6d1;
+    --pos:#4fb583; --neg:#e0776d;
+    --india:#6fa8dc; --china:#3d6ea5; --us:#8fc0ef; --japan:#2c5786;
   }
 }
 :root[data-theme="dark"]{
-  --bg:#14171b; --panel:#1a1e23; --panel-2:#20252b; --border:#2d333b;
-  --text:#e9e3d4; --muted:#a89e8a; --muted-2:#6f6656;
-  --accent:#cf9f56; --rule:#4a4130;
-  --flag:#d08b7f;
-  --pos:#5fae86; --neg:#d9847a;
-  --india:#d98846; --china:#c96a62; --us:#7ea3c9; --japan:#b06d8a;
+  --bg:#0a1522; --panel:#0f1e30; --panel-2:#132741; --border:#1f3a58;
+  --text:#e8f0fa; --muted:#93aec9; --muted-2:#5c7896;
+  --accent:#6fa8dc; --rule:#254a6d;
+  --flag:#7fa6d1;
+  --pos:#4fb583; --neg:#e0776d;
+  --india:#6fa8dc; --china:#3d6ea5; --us:#8fc0ef; --japan:#2c5786;
 }
 *{box-sizing:border-box;}
 html{background:var(--bg);}
